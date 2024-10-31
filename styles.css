@@ -1,0 +1,125 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado */
+header {
+    background-color: hsl(199, 92%, 72%);
+    color: hsl(180, 2%, 92%);
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: hsl(0, 0%, 0%);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #6af4a1;
+}
+
+/* Secciones */
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#inicio {
+    background-color: #ac81cf;
+}
+
+#sobre-nosotros {
+    background-color: #9ecfb5;
+}
+
+#productos {
+    background-color: #eaa472;
+}
+
+#contacto {
+    background-color: #ca7ba2;
+}
+
+form label, form input, form textarea, form button {
+    display: block;
+    margin: 0.5rem auto;
+    width: 80%;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#products, #cart {
+    margin: 20px;
+}
+
+.product {
+    border: 1px solid #12e627;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 150px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#cartItems {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cartItems li {
+    margin: 5px 0;
+}
